@@ -1,0 +1,61 @@
+.home-content{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 450px;
+}
+.home-page-welcome{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px 0px 0px;
+  align-self: flex-start;
+  margin-bottom: 35px;
+}
+.home-page-welcome div{
+  margin-left: 40px;
+  padding-top: 1px;
+}
+.home-page-welcome h3{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 17px;
+}
+.home-page-welcome h1{
+  font-family: Roboto;
+  font-size: 35px;
+  color: #FC7422;
+}
+.home-page-last-class{
+  background-image: linear-gradient(to right, #EBEBEB, #FC7422);
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+.go-to-class{
+  display: flex;
+  flex-direction: row;
+  padding-left: 600px;
+  padding-top: 5px;
+}
+.go-to-class h4{
+  font-family: Roboto;
+  font-weight: 800;
+  color: #fff;
+}
+.go-to-class img{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.class-title h2{
+  color: #FC7422;
+  font-family: Roboto;
+}
+.class-title h4{
+  font-family: Roboto;
+  font-weight: 100;
+}
+

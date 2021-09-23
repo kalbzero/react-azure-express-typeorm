@@ -1,0 +1,43 @@
+[
+   {
+      "name": "default",
+      "type": "mysql",
+      "host": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "",
+      "database": "nlclassroom",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.ts"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ]
+   },
+   {
+      "name": "prod",
+      "type": "oracle",
+      "host": "localhost",
+      "port": 3306,
+      "username": "test",
+      "password": "test",
+      "database": "test",
+      "synchronize": true,
+      "migrationsRun": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.ts"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ]
+   }
+]

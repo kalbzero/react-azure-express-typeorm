@@ -1,0 +1,37 @@
+.nl-tab-container {
+  display: flex;
+  align-items: center;
+  background-color: #fc7422;
+  flex-direction: row;
+  padding: 6px 0;
+  box-shadow: 0px 2px #9c9c9c5d;
+  justify-content: space-between;
+}
+.user-tools-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-right: 25px;
+}
+.user-name {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 40px;
+}
+.tab-bar-title {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.home-button-container h1 {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: normal;
+}
+.profile-modal {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #ffffff;
+}

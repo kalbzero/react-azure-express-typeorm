@@ -1,0 +1,63 @@
+.login-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px 0px 0px;
+}
+.login-page form{
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+}
+.login-page h3{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.login-page input{
+  border:none;
+  border-bottom: 1px solid #868686;
+  padding: 5px 10px;
+  outline: none;
+  margin-bottom: 35px;
+  font-size: 15px;
+}
+.login-page button{
+  background-color: #FC7422;
+  display: inline-block;
+  height: 45px;
+  align-self: center;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 0px 40px 0px 40px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.login-page a{
+  align-self: center;
+  padding-top: 40px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 15px;
+  color: #FC7422;
+}
+
+.nl-login-logo-container{
+  display: flex;
+  flex-direction: row;
+}
+.nl-login-logo-container img{
+  height: 43px;
+  width: 85px;
+}
+.nl-login-logo-container h2 {
+  margin-top: 28px;
+  margin-left: 1px;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #AAAAAA;
+}
